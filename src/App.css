@@ -1,0 +1,456 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #001c26;
+}
+#navElements{
+  color:white;
+  text-decoration: none;
+}
+#navElements:active{
+  color:rgb(165, 235, 14)
+}
+#navElements:hover{
+  color:rgb(165, 235, 14)
+}
+.courseList2 button{
+  border: none;
+}
+#fb{
+  background-color: #1e469f;
+  border-radius: 100%;
+  width: fit-content;
+  height:fit-content;
+  padding: 1%;
+  margin:0.5%;
+  cursor:pointer
+}
+
+.AboutImg{
+  background-color: white;
+  height: 20vh;
+  border:2px solid rgb(57, 0, 0);
+}
+.courseContent{
+  color:white;
+  text-align: left;
+  margin:auto;
+ padding: 2%;
+  margin-top: 0%;
+}
+.courseContent h4{
+  color:goldenrod
+}
+.courseContent button{
+  background-color:goldenrod
+}
+.courseList2{
+  border:1px solid gray;
+  width:70%;
+  margin: auto;
+  padding: 2%;
+  border-radius: 20px;
+  margin-top: 6%;
+  height: 80vh;
+  overflow-y: scroll;
+
+}
+
+#cardHover{
+ background-color:transparent;
+  border:none;
+
+}
+#cardHover:hover{
+  background-color:transparent;
+   border:1px solid rgb(74, 73, 73);
+   box-shadow:3px 5px rgb(49, 49, 49);
+  
+ 
+ }
+
+.Abtcontent{
+  width:90%;
+  margin:auto;
+  margin-top:5%;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+#accordData{
+  background-color: #001c26;
+  color:white;
+}
+
+.contactSection{
+  border: 2px solid white;
+  height: 40vh;
+ 
+  background-image: linear-gradient(to right,white,violet);
+  border: none;
+  border-radius: 20px;
+ 
+}
+#inputField1,#inputField2,#inputField3{
+  width:90%;
+  background-color:violet;
+  margin-bottom:2%;
+  color:black;
+  border: none;
+  border-radius: 5px;
+  padding: 1%;
+}
+input::placeholder{
+  color:white
+}
+.mydiv{
+    width: 100%;
+
+    position: absolute;
+
+    left: 0;
+    margin: 0 auto;
+}
+.webCourse{
+  border: 2px solid white;
+  height: fit-content;
+  margin-top: 5%;
+ 
+  background-image: linear-gradient(to right,white,orange);
+  border: none;
+  border-radius: 20px;
+  
+}
+
+.gd-carousel-wrapper {
+  position:relative;
+}
+.LoginSection{
+  height: max-content;
+  width: 80%;
+  margin: auto; 
+}
+.SigninSection{
+  height: 90vh;
+  width: 80%;
+  margin: auto;
+}
+#formData{
+  margin-top:3%;  
+}
+#formData input{
+  margin-top: 2%;
+  background-color: transparent;
+  border-radius: 20px;
+  border: 1px solid white;
+  text-align: center;
+  width: 40%;
+  height: 5vh;
+}
+#formData button{
+  margin-top: 2%;
+  background-color: #e6a71d;
+  color:#001c26;
+  width: 40%;
+}
+
+#loginData{
+  margin-top:3%;  
+}
+#loginData input{
+  margin-top: 2%;
+  background-color: transparent;
+  border-radius: 20px;
+  border: 1px solid white;
+  text-align: center;
+  width: 40%;
+  height: 5vh;
+}
+#loginData button{
+  margin-top: 2%;
+  background-color: #e6a71d;
+  color:#001c26;
+  width: 40%;
+}
+
+.loginText{
+  color:#001c26;
+  background-color: white;
+  width: fit-content;  
+  margin: auto;
+  padding: 1%;
+  border-radius: 20px;
+}
+.loginText2{
+  color:#001c26;
+  background-color: white;
+  width: fit-content;  
+  margin: auto;
+  padding: 1%;
+  border-radius: 20px;
+}
+.gd-carousel {
+  position:unset;
+  margin: auto;
+  height: 50vh;
+  width:100%;
+
+  .react-multiple-carousel__arrow {
+      position:absolute;
+      
+  }
+
+  .react-multiple-carousel__arrow--left {
+      left: calc(0% + 1px);
+      border: 2px solid white;
+  }
+
+  .react-multiple-carousel__arrow--right {
+      right: calc(0% + 1px);
+      border: 2px solid white;
+  }
+}
+.course1{
+  background-image: url('/Arts.jpg');
+  border-image-width: 100%;
+  width: 70%;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  border-radius: 15%;
+  color:rgb(104, 2, 104)
+}
+.course1:hover{
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('/Arts.jpg');
+
+  box-shadow: 5px 2px 7px 5px rgb(10, 113, 101);
+}
+.course1 h5{
+  color:transparent;
+  margin-top: 5%;
+}
+
+
+.course1:hover h5{
+  color: white;
+}
+.course2 h5{
+  color:transparent;
+  margin-top: 5%;
+}
+
+.course2:hover h5{
+  color: white;
+}
+.course4 h5{
+  color:transparent;
+  margin-top: 5%;
+}
+
+.course4:hover h5{
+  color: white;
+}
+.course5 h5{
+  color:transparent;
+  margin-top: 5%;
+}
+
+.course5:hover h5{
+  color: white;
+}
+.course1:hover button{
+  background-color: rgb(66, 28, 66);
+  color:gray;
+  border:none
+}
+.course2{
+  background-image: url('/green.jpeg');
+  color:rgb(1, 60, 1);
+  border-image-width: 100%;
+  width: 70%;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  border-radius: 15%;
+
+}
+.course2:hover{
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url('/green.jpeg');
+
+  box-shadow:5px 2px 7px 5px rgb(10, 113, 101);
+}
+.course1 button{
+  border: none;
+  background-color: rgb(104, 2, 104);
+}
+.course2 button{
+  background-color: rgb(1, 60, 1);
+  color: white;
+  border:none
+}
+.course2:hover button{
+  background-color: rgb(6, 38, 6);
+  color: rgb(74, 70, 70);
+}
+.course3{
+  background-image: url('/sea.jpg');
+  color: rgb(1, 16, 36);
+  border-image-width: 100%;
+  width: 70%;
+  padding-top: 15%;
+  padding-bottom: 5%;
+  border-radius: 15%;
+  height: 100%;
+}
+.course3:hover{
+ 
+  box-shadow: 5px 2px 7px 5px rgb(10, 113, 101);
+
+}
+.course3 button{
+  background-color: rgb(1, 16, 36);
+  color: white;
+  border:none
+}
+
+.course4{
+  background-image: url('/Plain1.jpg');
+  border-image-width: 100%;
+  width: 70%;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  border-radius: 15%;
+}
+.course4:hover{
+  background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url('/Plain1.jpg');
+
+  box-shadow: 5px 2px 7px 5px rgb(10, 113, 101);
+}
+.course4 button{
+  border:none
+}
+.course4:hover button{
+  border:none;
+  color:gray;
+  
+}
+.course5 button{
+  background-color:gold;
+  color:rgb(3, 69, 85);
+  border:none
+
+}
+.course5:hover button{
+  background-color: rgb(103, 90, 13);
+}
+.course5{
+  background-image: url('/course3.png');
+  border-image-width: 100%;
+  color:gold;
+  width: 70%;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  border-radius: 15%;
+}
+.course5:hover{
+  color:rgb(103, 89, 9);
+  background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('/course3.png');
+
+  box-shadow: 5px 2px 7px 5px rgb(10, 113, 101); 
+}
+#input1{
+  background-color: white;
+  border-radius: 50px;
+  width: 100%;
+}
+#img1{
+  width: 100%;
+  height:70vh;
+
+}
+#img2{
+  width: 100%;
+  height:35vh;
+
+}
+
+#btn1{
+  background-image: linear-gradient(to right,violet,#e22be2);
+  border: none;
+  border-radius: 45px;
+}
+.aboutContent{
+  background-color: #1de6a0;
+  margin: auto;
+  margin-top: 7%;
+
+  display: flex;
+  border-radius: 20px;
+  width: 80%;
+}
+.introContent{
+  background-color: #e6a71d;
+  margin: auto;
+  margin-top: 7%;
+
+  display: flex;
+  border-radius: 20px;
+  width: 80%;
+  
+}
+.introData{
+  padding: 5%;
+  text-align: left;
+}
+.introData button{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.introData h2{
+  margin-bottom: 5%;
+}
+.GoalData h5{
+  font-family:Arial, Helvetica, sans-serif;
+}
+.introData h5{
+  margin-bottom: 5%;
+}
+.Container{
+  max-width: 100%;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
